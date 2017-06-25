@@ -1,4 +1,6 @@
-# ReduxSimpleStarter
+# ReduxSimpleStarter -master branch
+# ReduxWeatherAPI -app/weather-app branch
+
 
 ### Getting Started
 
