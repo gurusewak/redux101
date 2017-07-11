@@ -1,5 +1,8 @@
 # ReduxSimpleStarter -master branch
-# ReduxWeatherAPI -app/weather-app branch
+
+### Redux Weather APP - switch branch to app/weather-app
+
+### ReduxRouter BlogPost App - switch branch to app/blogpost
 
 
 ### Getting Started
