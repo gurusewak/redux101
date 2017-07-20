@@ -1,6 +1,8 @@
-export function selectBook(book) {
+export const CHANGE_AUTH = "change_auth";
+
+export function authenticate(isLoggedIn) {
     return {
-    	type: 'BOOK_SELECTED',
-    	payload: book
+        type: CHANGE_AUTH,
+        payload: isLoggedIn
     };
 }

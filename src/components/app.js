@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import BookList from '../containers/book-list';
-import BookDetails from '../containers/book-details';
+import Header from './header';
 
 export default class App extends Component {
+
     render() {
         return (
             <div>
-		      	<BookList />
-		      	<BookDetails />
+		      	<Header />
+		      	{this.props.children}
 		    </div>
         );
     }
