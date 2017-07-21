@@ -6,8 +6,7 @@ export default class App extends Component {
     render() {
         return (
             <div>
-		      	<BookList />
-		      	<BookDetails />
+            	New Module
 		    </div>
         );
     }
