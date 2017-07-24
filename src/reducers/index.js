@@ -1,9 +1,8 @@
 import { combineReducers } from 'redux';
-import BooksReducer from './reducers_books';
-import ActiveBook from './reducers_active_book';
+import usersReducer from './users_reducer';
 
 const rootReducer = combineReducers({
-    
+    users: usersReducer
 });
 
 export default rootReducer;
