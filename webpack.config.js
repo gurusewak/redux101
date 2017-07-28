@@ -73,7 +73,7 @@ const config = {
             template: "./src/index.html"
         }),
         new ExtractTextPlugin({
-            filename: "/css/[name].css",
+            filename: "[name].css",
             disable: !isProd,
             allChunks: true
         }),
