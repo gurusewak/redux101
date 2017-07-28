@@ -3,8 +3,6 @@ const path = require("path");
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const bootstrapEntryPoints = require('./webpack.bootstrap.config.js');
-const glob = require('glob');
-const PurifyCSSPlugin = require('purifycss-webpack');
 
 const isProd = process.env.NODE_ENV === "production";
 const cssDev = ["style-loader", "css-loader", "sass-loader"]
@@ -76,13 +74,6 @@ const config = {
             filename: "[name].css",
             disable: !isProd,
             allChunks: true
-        }),
-        new PurifyCSSPlugin({
-            // Give paths to parse for rules. These should be absolute!
-            paths: glob.sync(path.join(__dirname, 'src/*.html')),
-            purifyOptions: {
-                minify: true
-            }
         })
     ]
 };

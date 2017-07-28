@@ -21,11 +21,9 @@
   },
   "homepage": "https://github.com/gurusewak/redux101#readme",
   "dependencies": {
-
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-addons-test-utils": "^15.6.0",
-    "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "react-router": "^4.1.2",
     "redux": "^3.7.2",
@@ -49,7 +47,6 @@
     "jquery": "^3.2.1",
     "jsdom": "^11.1.0",
     "lodash": "^4.17.4",
-    "purifycss-webpack": "^0.7.0",
     "url-loader": "^0.5.9",
     "resolve-url-loader": "^2.1.0"
   },
@@ -58,10 +55,9 @@
     "bootstrap-sass": "^3.3.7",
     "chai": "^4.1.0",
     "chai-jquery": "^2.0.0",
-    "redux-logger": "^3.0.6",
     "i": "^0.3.5",
     "mocha": "^3.4.2",
-    "purify-css": "^1.2.5",
+    "redux-logger": "^3.0.6",
     "rimraf": "^2.6.1",
     "webpack": "^2.7.0",
     "webpack-dev-server": "^2.6.1"
